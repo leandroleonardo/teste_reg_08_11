@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="definitions_219fcd7b-7e64-46ce-ad1f-b9263bbee9d2" targetNamespace="http://www.omg.org/spec/BPMN/20100524/MODEL">
+  <process id="process_14bb9d39-4ca5-4253-8958-fa7acd1c0c0b" isExecutable="true">
+    <startEvent id="StartEvent_0g72ke9">
+      <outgoing>SequenceFlow_0bb42gy</outgoing>
+    </startEvent>
+    <endEvent id="EndEvent_1853ujk">
+      <incoming>SequenceFlow_0bb42gy</incoming>
+    </endEvent>
+    <sequenceFlow id="SequenceFlow_0bb42gy" sourceRef="StartEvent_0g72ke9" targetRef="EndEvent_1853ujk" />
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_c053d7e6-ccb9-41eb-a99b-8ca3222e0013">
+    <bpmndi:BPMNPlane id="BPMNPlane_59c3385b-e2b6-4823-b9fa-9de4698a5cba" bpmnElement="process_14bb9d39-4ca5-4253-8958-fa7acd1c0c0b">
+      <bpmndi:BPMNShape id="StartEvent_0g72ke9_di" bpmnElement="StartEvent_0g72ke9">
+        <dc:Bounds x="395" y="206" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_1853ujk_di" bpmnElement="EndEvent_1853ujk">
+        <dc:Bounds x="436" y="316" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0bb42gy_di" bpmnElement="SequenceFlow_0bb42gy">
+        <di:waypoint x="413" y="242" />
+        <di:waypoint x="413" y="279" />
+        <di:waypoint x="454" y="279" />
+        <di:waypoint x="454" y="316" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
